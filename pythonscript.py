@@ -58,7 +58,6 @@ def physics_step(step_size):
     ) 
      
     print("Computed actions:", actions) 
-     
     franka.apply_action(actions) 
     new_joint_positions = franka.get_joint_positions() 
     print("New joints:", new_joint_positions) 
