@@ -6,5 +6,5 @@ This is an example of a standalone Python Script to run Iteractive Scripting on 
 
 Asynchronous workflow is essential for the standalone script to work. 
 
-## Import External Libraries 
+## Import External Packages 
 To import external packages, for example openai package, you need to run the script on the Nvidia Isaac Sim built-in Python Editor. Download it from Visual Studio Code does not work.
